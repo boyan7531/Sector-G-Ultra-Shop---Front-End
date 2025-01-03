@@ -199,3 +199,61 @@ form{
     height: 4px;
     background-color: black;
 }
+.footer-container {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+.links h1{
+    text-decoration: none;
+    color: white;
+    margin: 10px 0;
+    font-size: 1.6rem;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    margin: 5px 0;
+    font-size: 1.2rem;
+}
+
+.map-container h1{
+    text-decoration: none;
+    color: white;
+    margin: 10px 0;
+    font-size: 1.6rem;
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+}
+.socials a{
+    text-decoration: none;
+    color: white;
+    margin: 5px 0;
+    font-size: 1.2rem;
+}
+
+.socials h1{
+    text-decoration: none;
+    color: white;
+    margin: 10px 0;
+    font-size: 1.6rem;
+}
+
+.copyright {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
